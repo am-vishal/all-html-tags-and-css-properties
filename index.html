@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All HTML, CSS that i learned</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<center>
+<body onkeyup="document.bgColor=document.f.a.value">
+    <h1 style="color: rgb(37, 78, 78);">HTML Tags & CSS Properties</h1>
+    <h1>#hr #marquee #p</h1>
+    <hr>
+    <marquee behavior="absolute" direction="left">
+        <p>This is paragraph</p>
+    </marquee>
+    <hr>
+
+    <h1>#strong #b #u #ins #p #sup #br #del</h1>
+    <strong> This is strong tag </strong><br>
+    <b>This is bold tag</b><br>
+    <u>this is underline tag</u><br>
+    <ins>this is ins tag</ins><br>
+    <p><sup>this is supscript tag</sup><br></p>
+    <del>this is del tag</del>
+
+    <h1>#form #input</h1>
+    <form>
+        <p>this is textbox</p>
+        <blockquote>Ur Goddamn Life</blockquote><br>
+        <input type="text" placeholder="text"><br><br>
+        <input type="email" placeholder="email"><br><br>
+        <input type="number" NUMBER="only 1 to 6" min="1" max="10" placeholder="number"><br><br>
+        <input list="browser" placeholder="list">
+        <datalist id="browser">
+            <option value="Opera"></option>
+            <option value="Chrome"></option>
+            <option value="Mozila"></option>
+            <option value="Brave"></option>
+        </datalist><br><br>
+        <input type="search" name="googlesearch" placeholder="search"><br><br>
+        <input type="tel" name="telephone" placeholder="telephone"><br><br>
+        <input type="url" url="url" placeholder="url"><br><br>
+        <input type="color" color="skyblue"><br><br>
+        <input type="datetime-local"><br><br>
+        <input type="date" name="date"><br><br>
+        <input type="week"><br><br>
+
+        <input type="range">Increse/Decrese<br><br>
+        <input type="file"><br><br>
+        <input type="reset"><br><br>
+    </form>
+    <form action="demo_keygen.asp"><br>
+        Username: <input type="text" name="uname" placeholder="username"><br><br>
+        Full Name: <input type="text" name="fname" placeholder="Full Name" autofocus><br><br>
+        Points: <input type="number" name="points" step="6969"><br><br>
+        <input type="text" name="abc" placeholder="autocomplete" autocomplete="home, book"><br><br>
+        Encry:<keygen name="security"><br><br>
+        <input type="submit"><br><br>
+    </form>
+    <form name="f">
+        <input type="text" placeholder="write something here to change the background" name="a">
+    </form>
+    <br />
+    <form action="" novalidate>
+        <input type="text" name="fname" value="Max8Char" maxlength="8"><br /><br />
+        <input type="text" name="mname" value="Readonly" readonly><br /><br />
+        <input type="text" name="lname" value="Disabled" disabled><br /><br />
+    </form>
+
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" name="a" value="0"> 100 +
+        <input type="number" name="b" value="0"> =
+        <output name="x"></output>
+    </form>
+
+    <h1>#artical #h1 #p</h1>
+    <artical>
+        <h6>Google Chrome</h6>
+        <p>This is artical tag</p>
+    </artical>
+
+    <h1>#audio</h1>
+    <audio controls>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3">
+    </audio>
+
+    <h1>#video</h1>
+    <video width="320" height="180" controls>
+        <source src="http://techslides.com/demos/sample-videos/small.mp4">
+        </source>
+    </video>
+
+    <h1>#header #nav #details #summary #abbr #footer</h1>
+    <header>
+        <h3>this is header tag</h3>
+    </header>
+
+    <nav>
+        <p>it is used to navigate the link</p>
+    </nav>
+
+
+    <details open="open">if you want to show additional deatis to user<summary>Click here</summary>
+    </details>
+
+    <abbr>Hyper Text Markup Language</abbr>
+
+    <footer>
+        Copyrights @2019
+    </footer>
+
+    <h1>#meter #progress</h1>
+    <meter value="90" min="0" max="100"></meter>
+    <br />
+    <progress></progress>
+    <br />
+    <progress value="60" max="100"></progress>
+
+    <h1>#select</h1>
+    <select>
+        <option>Pizza</option>
+        <option>Burger</option>
+        <option>Sandwich</option>
+        <option>Roll</option>
+    </select>
+
+    <h1>#link #list</h1>
+    <a href='https:amvishal.tech' target='_blank'><img src='https://i.postimg.cc/RWbpnQ83/download.png' width="70px"
+            height="auto" alt='portfolio-link' /></a>
+    <br />
+    <a href="https://amvishal.tech">Vishal's Portfolio Link</a>
+
+    <ul class="a">
+        <li>This is unorder list</li>
+        <li>this is unorderlist</li>
+    </ul>
+
+    <!--orderlist-->
+    <ol class="b">
+        <li>this is orderlist</li>
+        <li>this is order list</li>
+    </ol>
+    <ul class="c">
+        <li>start from five</li>
+        <li>now it is six</li>
+    </ul>
+    <ol reversed>
+        <li>it is reversed orderlist</li>
+        <li>reversed orderlist</li>
+    </ol><br><br><br>
+    <dl>
+        <dt>Defination List</dt>
+        <dd>A list of term and their discription</dd>
+    </dl>
+
+    <ol>
+        <li>item</li>
+        <li>item
+            <ol>
+                <li>item</li>
+                <li>item</li>
+                <li>item
+                    <ol>
+                        <li>item</li>
+                        <li>item</li>
+                        <li>item</li>
+                    </ol>
+                </li>
+                <li>item</li>
+            </ol>
+        </li>
+        <li>item</li>
+        <li>item</li>
+    </ol>
+
+    <h1>#iframe</h1>
+    <iframe frameborder="1"> </iframe>
+
+    <h1>#kbd</h1>
+    <p><kbd><kbd>Ctrl</kbd></kbd>+<kbd><kbd>C</kbd></kbd></p>
+    <p><kbd><kbd>Ctrl</kbd></kbd>+<kbd><kbd>V</kbd></kbd></p>
+
+    <h1>#email</h1>
+    <a href="mailto:vkcky6@gmail.com" target="_blank">Send Mail</a>
+
+    <h1>#mark</h1>
+    <mark>Avenger Assemble</mark>
+
+    <h1>#inline-style</h1>
+    <h3 style="color: rgb(255, 136, 0);">this is inline css</h3>
+
+    <p id="outln">Outline tag</p>
+
+    <h1>#margin #padding</h1>
+    <p style="border: 1px solid black; margin: 1em;">this is an example of margin</p><br>
+    <p style="border: 1px solid black; padding: 1em;">This is an example of padding</p>
+
+
+    <h1>#table</h1>
+    <div class="flex-center">
+        <table>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Gender</th>
+                <th>Date Of Birth</th>
+                <th>Contact Number</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Vishal</td>
+                <td>Kumar</td>
+                <td>Male</td>
+                <td>09/05/1998</td>
+                <td>+91 896988....</td>
+                <td><a href="#">vkcky6@gmail.com</a></td>
+
+
+            </tr>
+            <tr>
+                <td>Ajay</td>
+                <td>Nayak</td>
+                <td>Male</td>
+                <td>07/02/1997</td>
+                <td>+91 863833....</td>
+                <td><a href="#">ajaynayak1125@gmail.com</a></td>
+            </tr>
+            <tr>
+                <td>Ashish</td>
+                <td>Kumar</td>
+                <td>Rather Not To Disclose</td>
+                <td>10/12/1999</td>
+                <td>+91 872233....</td>
+                <td><a href="#">kumarashish838523@gmail.com</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <h1>#box-sizing</h1>
+    <div class="flex-center">
+        <div class="e">box5</div>
+        <div class="f">box6</div>
+        <div class="g">box7</div>
+        <div class="h">box8</div>
+        <div class="i">box9</div>
+        <div class="j">box10</div>
+        <div class="k">box11</div>
+        <div class="l">box12</div>
+        <div class="m">box13</div>
+        <div class="n">box14</div>
+        <div class="o">box15</div>
+        <div class="p">box16</div>
+        <div class="q">box17</div>
+        <div class="r">box18</div>
+        <div class="s">box19</div>
+        <div class="t">box20</div>
+        <div class="u">box21</div>
+    </div>
+
+    <h1>#overflow #clear</h1>
+    <form id="form-flow">
+
+        <p>1. What is '$' in JavaScript?
+
+            JavaScript is a client-side scripting language, which means the source code is processed by the client's web
+            browser rather than on the web server. This means JavaScript functions can run after a webpage has loaded
+            without communicating with the server.
+            2. Applications of Javascript Programming:
+            <img src='https://i.postimg.cc/dDhvTW8H/car.png' alt='car' />
+            As mentioned before, Javascript is one of the most widely used programming languages (Front-end as well as
+            Back-end). It has it's presence in almost every area of software development. I'm going to list few of them
+            here:
+
+            Client side validation - This is really important to verify any user input before submitting it to the
+            server and Javascript plays an important role in validting those inputs at front-end itself.
+
+            Manipulating HTML Pages - Javascript helps in manipulating HTML page on the fly. This helps in adding and
+            deleting any HTML tag very easily using javascript and modify your HTML to change its look and feel based on
+            different devices and requirements.
+
+            User Notifications - You can use Javascript to raise dynamic pop-ups on the webpages to give different types
+            of notifications to your website visitors.
+
+            Back-end Data Loading - Javascript provides Ajax library which helps in loading back-end data while you are
+            doing some other processing. This really gives an amazing experience to your website visitors.
+
+            Presentations - JavaScript also provides the facility of creating presentations which gives website look and
+            feel. JavaScript provides RevealJS and BespokeJS libraries to build a web-based slide presentations.
+
+            Server Applications - Node JS is built on Chrome's Javascript runtime for building fast and scalable network
+            applications. This is an event based library which helps in developing very sophisticated server
+            applications including Web Servers.
+
+            padding-box Default value. The background image starts from the upper left corner of the padding edge.
+
+            border-box The background image starts from the upper left corner of the border
+
+            content-box .
+            The background image starts from the upper left corner of the content
+        </p>
+    </form>
+    <form>
+        <input type="text" class="search" placeholder="Search..."><br><br><br>
+        <textarea>resize window</textarea>
+    </form>
+
+    <h1>#fieldset</h1>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <center>
+            <input type="text" name="First Name"><br><br>
+            <input type="text" name="Last Name"><br><br>
+            <input type="submit" value="Submit" class="submit">
+        </center>
+    </fieldset>
+
+    <h1>#Pesudo</h1>
+    <div class="pesudo">
+        <input type="text" min="2" max="5" value="3">
+    </div>
+
+    <h1>#dropdown</h1>
+    <div class="dropdown">
+        <img src="w3.jpg" alt="Cinque Terre" width="60" height="40">
+
+        <div class="dropdown-content">
+            <div class="gallery">
+                <img src="https://via.placeholder.com/150">
+            </div>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/150">
+            </div>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/150">
+            </div>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/150">
+            </div>
+        </div>
+
+        <h1>#border-image</h1>
+        <p id="borderimg">border-image: url(border.png) 30 round;</p><br><br><br>
+        <p id="borderimg1">border-image: url(border.png) 30 stretch;</p><br><br><br>
+        <p id="borderimg2">border-image: url(border.png) 30 space;</p><br><br><br>
+        <p id="borderimg3">border-image: url(border.png) 30% space;</p><br><br><br>
+        <p id="borderimg4">border-image: url(border.png) 30% stretch;</p><br><br><br>
+        <p id="borderimg5">border-image: url(border.png) 20% round;</p><br><br><br>
+
+
+
+        <p>No background-clip (border-box is default):</p>
+        <div id="example1">
+            <h2>Lorem Ipsum Dolor</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+
+        <p>background-clip: padding-box:</p>
+        <div id="example2">
+            <h2>Lorem Ipsum Dolor</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+
+        <p>background-clip: content-box:</p>
+        <div id="example3">
+            <h2>Lorem Ipsum Dolor</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+
+        <h1>#linear-gradient #radial-gradient #text-shadow</h1>
+        <div id="LG"></div><br><br><br>
+        <div id="LG1"></div><br><br><br>
+        <div id="LG2"></div>
+
+        <div id="RD1"></div><br><br>
+        <div id="RD2"></div><br><br>
+        <div id="RD3"></div><br><br>
+        <div id="RD4"></div><br><br>
+        <div id="RD5"></div><br><br>
+        <div id="RD6"></div><br><br>
+        <div id="RD7"></div><br><br>
+        <div id="RD8"></div><br><br>
+
+        <p id="p1">Multiple Shadows</p>
+        <p id="p2">white text with black, blue, and darkblue shadow</p>
+        <p id="p3">plain border around some text (without shadows)</p>
+
+        <div class="aa">This is a div element with a box-shadow without color and blur</div><br><br><br>
+        <div class="bb">This is a div element with a box-shadow with color and without blur</div><br><br><br>
+        <div class="cc">This is a div element with a box-shadow with color and with blur</div>
+
+        <h1>The writing-mode Property</h1>
+
+        <p class="test1">Some text with default writing-mode.</p>
+
+        <p>Some text with a span element with a <span class="test2">vertical-rl</span> writing-mode.</p>
+
+        <p class="test2">Some text with writing-mode: vertical-rl.</p>
+
+
+        <h1>The scale() Method</h1>
+        <p>The scale() method increases or decreases the size of an element.</p>
+
+        <div>
+            This div element is two times of its original width, and three times of its original height.
+            This div element is skewed 20 degrees along the X-axis.
+        </div>
+        <div id="a">This div element is skewed 20 degrees along the Y-axis.</div>
+        <div id="b">element 20 degrees along the X-axis, and 10 degrees along the Y-axis:</div>
+        <div id="myDiv1">
+            Using the matrix() method.
+        </div>
+
+        <div id="myDiv2">
+            Another use of the matrix() method.
+        </div>
+        <div id="tt"></div>
+        <h1>#flexbox</h1>
+        <div class="flexbox">
+            <img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg" alt="">
+            <img src="https://static.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg" alt="">
+            <img src="https://static.pexels.com/photos/213399/pexels-photo-213399.jpeg" alt="">
+            <img src="https://static.pexels.com/photos/158471/ibis-bird-red-animals-158471.jpeg" alt="">
+            <img src="https://static.pexels.com/photos/133459/pexels-photo-133459.jpeg" alt="">
+            <img src="https://static.pexels.com/photos/50988/ape-berber-monkeys-mammal-affchen-50988.jpeg" alt="">
+
+        </div>
+        <h1>#animation</h1>
+        <div id="tracking">I'm Vishal Here &#x1F609</div>
+
+        <h1>#cube #animation</h1>
+        <div class="cube">
+            <div class="top"></div>
+            <div class="right"></div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="front"></div>
+            <div class="back"></div>
+        </div>
+
+        <h1>#flip</h1>
+        <div class="col-sm-4 flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="content-box flipper">
+                <div class="content-box-front">
+                    <span class="glyphicon glyphicon-envelope content-box-icon"></span>
+                    <h4>Hover to flip</h4>
+                </div>
+                <div class="content-box-back">
+                    <p>Flipped</p>
+
+                </div>
+            </div>
+        </div>
+
+        <h1>#moving box</h1>
+        <div class="animationDiv"></div>
+
+
+        <h1>#media</h1>
+        <p><strong>Resize the browser window to see the responsive effect.</strong> On screens that are 992px wide or
+            less, the columns will resize from four columns to two columns. On screens that are 600px wide or less, the
+            columns will stack on top of each other instead of next to eachother.</p>
+
+        <div class="row">
+            <div class="column" style="background-color:#aaa;">
+                <h2>Column 1</h2>
+                <p>Some text..</p>
+            </div>
+
+            <div class="column" style="background-color:#bbb;">
+                <h2>Column 2</h2>
+                <p>Some text..</p>
+            </div>
+
+            <div class="column" style="background-color:#ccc;">
+                <h2>Column 3</h2>
+                <p>Some text..</p>
+            </div>
+
+            <div class="column" style="background-color:#ddd;">
+                <h2>Column 4</h2>
+                <p>Some text..</p>
+            </div>
+        </div>
+
+
+        <h1>#css-variable</h1>
+
+        <div id="div1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at
+            pulvinar felis blandit.</div>
+        <br>
+
+        <div id="div2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at
+            pulvinar felis blandit.</div>
+        <br>
+
+        <div id="div3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at
+            pulvinar felis blandit.</div>
+
+        <h1>#colspan</h1>
+        <div class="newspaper">
+            <h2>Lorem Ipsum Dolor Sit Amet</h2>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+            dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+            suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+            vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+            accumsan et
+            iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla
+            facilisi.
+            Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer
+            possim assum.
+        </div>
+
+
+        <h1>#object-fit #coverfit</h1>
+
+        <h2>No object-fit:</h2>
+        <img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg" alt="Paris"
+            style="width:200px;height:400px">
+
+        <h2>object-fit: fill (this is default):</h2>
+        <img class="fill" src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg" alt="Paris"
+            style="width:200px;height:400px">
+
+        <h2>object-fit: contain:</h2>
+        <img class="contain" src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg" alt="Paris"
+            style="width:200px;height:400px">
+
+        <h2>object-fit: cover:</h2>
+        <img class="cover" src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg" alt="Paris"
+            style="width:200px;height:400px">
+
+        <h2>object-fit: scale-down:</h2>
+        <img class="scale-down" src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg"
+            alt="Paris" style="width:200px;height:400px">
+
+        <h2>object-fit: none:</h2>
+        <img class="none" src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg" alt="Paris"
+            style="width:200px;height:400px">
+
+
+        <div style="width:100%;height:400px;">
+            <img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg"
+                style="float:left; width:50%; height:100%; object-fit:cover;">
+            <img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg"
+                style="float:left; width:50%; height:100%; object-fit:cover;">
+        </div>
+
+        <h1>#filter</h1>
+        <img src="https://images.unsplash.com/photo-1582093236149-516a8be696fe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1534&q=80"
+            width="300" height="300">
+        <img class="blur"
+            src="https://images.unsplash.com/photo-1582093236149-516a8be696fe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1534&q=80"
+            width="300" height="300">
+        <img class="brightness"
+            src="https://images.unsplash.com/photo-1582093236149-516a8be696fe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1534&q=80"
+            width="300" height="300">
+        <img class="contrast"
+            src="https://images.unsplash.com/photo-1582093236149-516a8be696fe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1534&q=80"
+            width="300" height="300">
+        <img class="grayscale"
+            src="https://images.unsplash.com/photo-1582093236149-516a8be696fe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1534&q=80"
+            width="300" height="300">
+        <img class="huerotate"
+            src="https://images.unsplash.com/photo-1582093236149-516a8be696fe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1534&q=80"
+            width="300" height="300">
+        <img class="invert"
+            src="https://images.unsplash.com/photo-1582093236149-516a8be696fe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1534&q=80"
+            width="300" height="300">
+        <img class="opacity"
+            src="https://images.unsplash.com/photo-1582093236149-516a8be696fe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1534&q=80"
+            width="300" height="300">
+        <img class="saturate"
+            src="https://images.unsplash.com/photo-1582093236149-516a8be696fe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1534&q=80"
+            width="300" height="300">
+        <img class="sepia"
+            src="https://images.unsplash.com/photo-1582093236149-516a8be696fe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1534&q=80"
+            width="300" height="300">
+        <img class="shadow"
+            src="https://images.unsplash.com/photo-1582093236149-516a8be696fe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1534&q=80"
+            width="300" height="300">
+
+
+        <h1>#tooltip</h1>
+        <div class="tooltip">Hover over me
+            <span class="tooltiptext">Tooltip text</span>
+        </div>
+
+        <h1>#modal</h1>
+        <img id="myImg" src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg" width="300"
+            height="200">
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+        </div>
+
+        <script>
+            var modal = document.getElementById('myModal');
+
+            var img = document.getElementById('myImg');
+            var modalImg = document.getElementById("img01");
+            img.onclick = function () {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+            var span = document.getElementsByClassName("close")[0];
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+        </script>
+
+        <h1>#length #charAt #indexOf</h1>
+        <p>This is first tutorial of DHTML</p>
+        <script language="javascript">
+            var x = "DHTML"
+            var length = x.length;
+            document.write("the length of string is " + length + ' ');
+            var char = x.charAt(0);
+            document.write("char at 0th position is " + char + ' ');
+            var pos = x.indexOf("L");
+            document.write("the position of l is " + pos + ' ');
+        </script>
+        <br />
+        <br />
+
+        <h1>#canvas</h1>
+        <canvas id="mycanvas" width="200px" height="200px" style="border: solid 1px grey;">
+        </canvas>
+        <script>
+            var c = document.getElementById("mycanvas");
+            var ctx = c.getContext("2d");
+            //create gradient
+            var grd = ctx.createRediaGradient(75, 50, 5, 90, 60, 100);
+            grd.addColorStop(0, "red");
+            grd.addColorStop(1, "white");
+            //fill with gradient
+
+            ctx.fillStyle = grd;
+            ctx.fillRect(10, 10, 150, 80);
+        </script>
+</body>
+</center>
+
+</html>
