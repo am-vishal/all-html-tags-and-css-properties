@@ -1,0 +1,937 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+#scroll_to_top_id {
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+    background:black;
+  }
+
+h1 {
+    margin: 5px auto;
+    text-decoration: underline;
+}
+
+a:link {
+    color: blue;
+
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: aqua;
+    background-color: bisque;
+}
+
+ul.a {
+    list-style-type: georgian;
+}
+
+ol.b {
+    list-style-type: lower-alpha;
+    color: cyan;
+}
+
+ul.c {
+    list-style: url("icon.png");
+
+}
+
+#outln {
+    outline-style: solid;
+    outline-width: 1px;
+    outline-offset: 1px;
+    outline-color: blueviolet;
+}
+.flex-center{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+table {
+    border: 2px solid green;
+    width: 1000px;
+    height: 600px;
+    text-align: center;
+    background-color: rgb(0, 255, 255);
+    border-radius: 6px;
+    border-color: green;
+    margin-top: 10px;
+
+
+}
+
+td {
+    background-color: lightblue;
+    color: black;
+    border-radius: 3;
+    border-collapse: separate;
+
+}
+
+th {
+    border: 1px solid blueviolet;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+
+
+.e{
+    float: left;
+    width:33px;
+    padding:50px;
+    background-color: red;
+}
+.f{
+    float: left;
+    width:33px;
+    padding:50px;
+    background-color: black;
+}
+.g{
+    float: left;
+    width:33px;
+    padding:50px;
+    background-color: darkgreen;
+}
+.h{
+    float: left;
+    width:33px;
+    padding:50px;
+    background-color: darkmagenta;
+}
+.i{
+    float: left;
+    width:33px;
+    padding:50px;
+    background-color: darkslategrey;
+}
+.j{
+    float: left;
+    width:33px;
+    padding:50px;
+    background-color: darkturquoise;
+}
+.k{
+    float: left;
+    width:33px;
+    padding:50px;
+    background-color: lightcoral;
+}
+.l{
+    float: left;
+    width:33px;
+    padding:50px;
+    background-color: lightslategray;
+}
+.m{
+    float: left;
+    width:33px;
+    padding:50px;
+    background-color: yellowgreen;
+}
+.n{
+    float: left;
+    width:33px;
+    padding:50px;
+    background-color: pink;
+}
+.o{
+    float: left;
+    width:33px;
+    padding:50px;
+    background-color: palegoldenrod;
+}
+.p{
+    float: left;
+    width:33px;
+    padding:50px;
+    background-color: brown;
+}
+.q{
+    float: left;
+    width:33px;
+    padding:50px;
+    background-color: cadetblue;
+}
+.r{
+    float: left;
+    width:33px;
+    padding:50px;
+    background-color: darkcyan;
+}
+.s{
+    float: left;
+    width:33px;
+    padding:50px;
+    background-color: fuchsia;
+}
+.t{
+    float: left;
+    width:33px;
+    padding:50px;
+    background-color: purple;
+}
+.u{
+    float: left;
+    width:33px;
+    padding:50px;
+    background-color: floralwhite;
+}
+.e:hover{
+    background-color: grey;
+}
+.f:hover{
+    background-color: indigo;
+}
+.g:hover{
+    background-color: lawngreen;
+}
+.h:hover{
+    background-color: lightblue;
+}
+.i:hover{
+    background-color: lightcoral;
+}
+.j:hover{
+    background-color: maroon;
+}
+.k:hover{
+    background-color: mediumaquamarine;
+}
+.l:hover{
+    background-color: mediumslateblue;
+}
+.m:hover{
+    background-color: olive;
+}
+.n:hover{
+    background-color: orange;
+}
+.o:hover{
+    background-color: orangered;
+}
+.p:hover{
+    background-color: navy;
+}
+.q:hover{
+    background-color: mediumvioletred;
+}
+.r:hover{
+    background-color: mediumorchid;
+}
+.s:hover{
+    background-color: lightcoral;
+}
+.t:hover{
+    background-color: lightgreen;
+}
+.u:hover{
+    background-color: darkcyan;
+}
+#form-flow{
+    border: solid 1px green;
+    overflow: auto;
+}
+#form-flow>p>img{
+    display:flex;
+    height: auto;
+    width: unset;
+    clear: both;
+}
+fieldset{
+    /* width:fit-content; */
+    color: turquoise;
+}
+
+.pesudo>input:in-range{
+    border: solid 3px red ;
+}
+.pesudo>input::selection{
+    background-color: hotpink;
+}
+.pesudo>input::first-line{
+    color: indigo;
+}
+.pesudo>h3::first-letter{
+    color: hotpink;
+    font-size: 30px;
+}
+.pesudo>h3::selection{
+    color: indianred;
+    cursor:all-scroll;
+    outline-offset: blue;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  .gallery {
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+  }
+  
+  @media (max-width: 600px) {
+    .gallery {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .gallery {
+      width: 100%;
+    }
+  }
+
+  input.search {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid rgb(79, 186, 219);
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 1s ease-in-out;
+    resize:vertical;
+  }
+  
+  input.search:focus {
+    width: 100%;
+  }
+  textarea{
+    resize:both;
+    box-sizing: border-box;
+  }
+  ol {
+    counter-reset: section;
+    list-style-type: none;
+  }
+  
+  li::before {
+    counter-increment: section;
+    content: counters(section,".") " ";
+  }
+  #borderimg { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30 round;
+  }
+  #borderimg1 { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30 stretch;
+  }
+  #borderimg2 { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30 space;
+  }
+  #borderimg3 { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30% space;
+  }
+  #borderimg4 { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30% stretch;
+  }
+  #borderimg5 { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 20% round;
+  
+  }
+  #example1 {
+    border: 10px dotted black;
+    padding:35px;
+    background: yellow;
+  }
+  
+  #example2 {
+    border: 10px dotted black;
+    padding:35px;
+    background: yellow;
+    background-clip: padding-box;
+  }
+  
+  #example3 {
+    border: 10px dotted black;
+    padding:35px;
+    background: yellow;
+    background-clip: content-box;
+  }
+  #LG{
+    height: 400px;
+    background-color: red;
+    background-image: linear-gradient(to right, #f99333, white, #138808);
+}
+#LG1{
+    height: 400px;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, white, rgb(221, 184, 184), yellow, green, blue, hotpink, darkgrey);
+}
+#LG2{
+    height: 400px;
+    background-color: violet;
+    background-image: repeating-linear-gradient(red 10%, yellow 20%);
+}
+#RD1{
+    background-color: red;
+    height: 700px;
+    width: 1000px;
+    background-image: radial-gradient(rgb(124, 10, 10) 15%, grey 15%, aqua 40%);
+   
+}
+#RD2{
+
+    background-color: red;
+    height: 700px;
+    width: 1000px;
+    background-image: repeating-radial-gradient(red 15%, blue 15%, green 40%);
+    
+   
+}
+#RD3{
+    background-color: red;
+    height: 700px;
+    width: 1000px;
+    background-image:  radial-gradient(closest-side at 60% 55%, red, yellow, black);
+
+}
+#RD4{
+    background-color: red;
+    height: 700px;
+    width: 1000px;
+    background-image: radial-gradient(farthest-side at 60% 55%, red, yellow, black);
+}
+#RD5{
+    background-color: red;
+    height: 700px;
+    width: 1000px;
+    background-image: radial-gradient(closest-corner at 60% 55%, red, yellow, black);
+}
+#RD6{
+    background-color: red;
+    height: 700px;
+    width: 1000px;
+    background-image: radial-gradient(farthest-corner at 60% 55%, red, yellow, black);
+}
+#RD7{
+    background-color: red;
+    height: 700px;
+    width: 1000px;
+    background-image: radial-gradient( circle, aliceblue 15%, blue 15%, green 40%);
+}
+#RD8{
+    background-color: red;
+    height: 700px;
+    width: 1000px;
+    background-image: repeating-radial-gradient(rgb(9, 240, 240) 15%, rgb(194, 168, 121) 15%, rgb(183, 228, 21) 40%);
+}
+#p1 {
+    color: black;
+    text-shadow: 1px 1px 2px #FF0000, 1px 1px 1px #0000FF;
+}
+
+#p2 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+#p3 {
+    color: yellow;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.aa{
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: red;
+    box-shadow: 5px 5px;
+  }
+  .bb{
+      width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: red;
+    box-shadow: 5px 5px grey;
+  }
+  .cc{
+      width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: red;
+    box-shadow: 5px 5px 5px grey;
+  }
+  p.test1 {
+    writing-mode: horizontal-tb; 
+  }
+  
+  span.test2 {
+    writing-mode: vertical-rl; 
+  }
+  
+  p.test2 {
+    writing-mode: vertical-rl;
+  }
+
+  
+  #a {
+    transform: skewY(20deg);
+}
+
+#b {
+    transform: skew(20deg, 10deg);
+}
+
+div#myDiv1 {
+    -ms-transform: matrix(1, -0.3, 0, 1, 0, 0);
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+
+}
+
+div#myDiv2 {
+    -ms-transform: matrix(1, 0, 0.5, 1, 150, 0);
+    transform: matrix(1, 0, 0.5, 1, 150, 0);
+
+}
+#tt {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+  #tt:hover {
+    width: 1000px;
+    height: 700px;
+    transform: rotate(360deg);
+    background: green;
+  }
+  .flexbox{
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-around;
+    
+  }
+  .flexbox>img{
+      
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+  }
+  #tracking {
+    animation: tracking-animation 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: larger;
+    margin-top: 150px;
+    color: rgb(22, 29, 63);
+}
+
+@keyframes tracking-animation{
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(400px) translateY(300px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+ 
+}
+
+
+.cube {
+    transform-style: preserve-3d;
+    animation: spin 222s infinite ease-out;
+    margin-top: 250px;
+    width: 100px;
+    height: 100px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateX(-20deg) rotateY(20deg);
+    }
+
+    100% {
+        transform: rotateX(-20deg) rotateY(740deg);
+    }
+}
+
+
+
+.cube div {
+    width: 100px;
+    height: 100px;
+    box-shadow: inset 0px 0px 0px 1px rgba(10, 0, 0, 0.8);
+    background: rgba(190, 187, 187, 0.397);
+    position: absolute;
+}
+
+.cube div.top {
+    transform: rotateX(90deg);
+    margin-top: -50px;
+    background-color: rgba(102, 81, 122, 0.322);
+    
+}
+
+
+.cube div.right {
+    transform: rotateY(90deg);
+    margin-left: 50px;
+}
+
+.cube div.bottom {
+    transform: rotateX(-90deg);
+    margin-top: 50px;
+}
+
+.cube div.left {
+    transform: rotateY(-90deg);
+    margin-left: -50px;
+}
+
+.cube div.front {
+    transform: translateZ(50px);
+}
+
+.cube div.back {
+    transform: translateZ(-50px) rotateX(180deg);
+}
+.content-box {
+    position: relative;
+    text-align: center;
+    height: 105px;
+    width: 100%;
+}
+
+.content-box-icon {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin: 5px auto 15px auto;
+    color: #fff;
+    float: none;
+    background: #25acfd
+}
+
+.content-box-front {
+    z-index: 2;
+
+    
+    transform: rotateY(0deg);
+
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 105px;
+}
+
+.content-box-back {
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 105px;
+}
+
+/* Entire container, keeps perspective */
+
+/* Flip the pane when hovered */
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+/* Flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.animationDiv {
+    animation-name: kf;
+    animation-duration: 4s;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    
+    animation-iteration-count: 3;
+    animation-direction:alternate;
+    transition: .6s ease;
+}
+@keyframes kf{
+    0%{background: red; left: 0px; top: 0px;}
+    10%{background: green; left: 200px; top: 0px;}
+    20%{background: greenyellow; left: 400px; top: 0px;}
+    30%{background: honeydew; left: 400px; top: 400px;}
+    40%{background: indigo; left: 0px; top: 400px;}
+    50%{background: lawngreen; left: 0px; top: 0px;}
+    60%{background: lightseagreen; left: 200px; top: 0px;}
+    70%{background: lightslategray; left: 400px; top: 0px;}
+    80%{background: maroon;left: 400px; top: 400px;}
+    90%{background: mediumpurple; left: 0px; top: 400px}
+    100%{background: navy;  left:0px; top: 0px;}
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create four equal columns */
+  .column {
+    flex: 25%;
+    padding: 20px;
+  }
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 992px) {
+    .column {
+      flex: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+  :root {
+    --main-bg-color: coral;
+    --main-txt-color: blue;  
+    --main-padding: 15px;  
+  }
+  
+  #div1 {
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);  
+    padding: var(--main-padding);
+  }
+  
+  #div2 {
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+    padding: var(--main-padding);
+  }
+  
+  #div3 {
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+    padding: var(--main-padding);
+  }
+  .newspaper {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+}
+
+.newspapaer>h2 {
+    column-span: all;
+}
+
+.fill {
+    object-fit: fill;
+}
+
+.contain {
+    object-fit: contain;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.scale-down {
+    object-fit: scale-down;
+}
+
+.none {
+    object-fit: none;
+}
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+  .blur {
+    filter: blur(4px);
+}
+
+.brightness {
+    filter: brightness(250%);
+}
+
+.contrast {
+    filter: contrast(180%);
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.huerotate {
+    filter: hue-rotate(180deg);
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+.opacity {
+    filter: opacity(50%);
+}
+
+.saturate {
+    filter: saturate(7);
+}
+
+.sepia {
+    filter: sepia(100%);
+}
+
+.shadow {
+    filter: drop-shadow(8px 8px 10px green);
+}
+.tooltip {
+    margin-top: 60px;
+    position: relative;
+    border-bottom: solid 1px black;
+    display: inline-block;
+
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
